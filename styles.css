@@ -1,0 +1,13 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgba(177, 39, 39, 0.479);
+}    
+    
+h1 {
+    text-align: 40px;
+    font-weight: bold;
+}
+
+li {
+    color: hsl(0, 58%, 40%);
+}
