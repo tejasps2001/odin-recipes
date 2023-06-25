@@ -1,13 +1,19 @@
 body {
     font-family: 'Trajan Pro', sans-serif;
-    background-color: rgba(177, 39, 39, 0.479);
-}    
+}
+
 @font-face {
     font-family: "Trajan Pro";
     src: url('./fonts/trajan-pro/Trajan\ Pro.ttf') format('truetype');
 }
+
 h1 {
-    text-align: 40px;
+    width: 600px;
+    background-color: #3F51B5;
+    border: 8px solid #FFC107;
+    padding: 16px;
+    margin: 16px auto;
+    text-align: center;
     font-weight: bold;
 }
 
