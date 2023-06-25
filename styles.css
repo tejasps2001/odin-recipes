@@ -1,5 +1,9 @@
 body {
+    width: 700px;
     font-family: 'Trajan Pro', sans-serif;
+    background-image: url("images/odin-recipes.png");
+    background-size: cover;
+    margin: auto;
 }
 
 @font-face {
@@ -9,14 +13,30 @@ body {
 
 h1 {
     width: 600px;
-    background-color: #3F51B5;
-    border: 8px solid #FFC107;
+    color: #FFFFFF;
+    background-color: #303F9F;
+    border: 8px solid #FF4081;
     padding: 16px;
     margin: 16px auto;
     text-align: center;
-    font-weight: bold;
+}
+
+h2 {
+    color: #FFFFFF;
+    width: 300px;
+    margin: 16px auto;
+    background-color: #303F9F;
+    text-align: center;
+}
+
+ul {
+    background-color: #FFA000;
+    border: 8px solid #FF4081;
+    width: 200px;
+    margin: auto;
 }
 
 li {
-    color: hsl(0, 58%, 40%);
+    text-align: center;
+    margin: 8px;
 }
